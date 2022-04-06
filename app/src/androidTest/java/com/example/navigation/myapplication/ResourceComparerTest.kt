@@ -15,6 +15,7 @@ class ResourceComparerTest {
 
     @Test
     fun stringResourceSameAsGivenString_returntrue() {
+        //
         val con = ApplicationProvider.getApplicationContext<Context>()
      val result = re.isEquals(con, R.string.app_name, "My Application")
         assertTrue(result )
